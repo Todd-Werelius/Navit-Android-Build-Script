@@ -1,11 +1,11 @@
 Navit-Android-Build-Script
 ==========================
+Build script for Ubuntu 12.04 that will get all dependenices and perform an Android build
 
-Build script for Ubuntu 12.04 that will pull Navit source code + all android repositories 
+##Why
+If you are trying to build Navit source code for Android with the latest NDK and Toolchains it's a bit of a pain to do manually
 
-If you are trying to build Navit source code for Android with the latest NDK and Toolchains it's a bit of a pain.
-
-This script was writtend to be used on Ubuntu 12.04 and run from a users home directory, it probably shouldn't be used to install Navit on anything other than a Virtualbox etx. since it's not all that configurable without tinkering
+This script was writtend to be used on 32 bit Ubuntu 12.04 and run from a users home directory, it probably shouldn't be used to install Navit on anything other than a Virtualbox etx. since it's not all that configurable without tinkering but with a little work in can be used to do the same on other distros. 
 
 ### What it does initially 
 Installs all dependencies
