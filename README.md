@@ -9,16 +9,23 @@ This script was writtend to be used on 32 bit Ubuntu 12.04 and run from a users 
 
 ### What it does initially 
 Installs all dependencies
+
 Downloads Android SDK 22.6.2, Build Tools 19.0.3, and NDK r9d
+
 Downloads all updates for SDK ( but not the NDK ) 
+
 Downlaods all the Navit source
+
 Creates a directory called 'src' just off the directory where all of this goes
+
 Builds all the source and if succesful ( assuming you run it from the home dir ) the android debug bin will be in 
 '~/src/navit-svn/android-build/navit/android/bin/...' There are a number of APK's you can use to deploy dependent on use
 
-### What it does when it's re-rune
+### What it does when it's re-run
 Updates the SDK
+
 Updates the Navit Source
+
 Cleans out the object/makefile etc (so if you want to save your built source rename android-build directory) 
 Rebuilds
 
